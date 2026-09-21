@@ -1,17 +1,26 @@
 {
-  "name": "graph",
+  "name": "apollo-actores",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "homepage": "https://github.com/dcm-uns/graphql-apollo-actores#readme",
+  "bugs": {
+    "url": "https://github.com/dcm-uns/graphql-apollo-actores/issues"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcm-uns/graphql-apollo-actores.git"
+  },
   "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
   "dependencies": {
-    "apollo-server-express": "^3.13.0",
-    "express": "^5.1.0",
-    "graphql": "^16.11.0"
+    "@apollo/server": "^5.5.1",
+    "@as-integrations/express5": "^1.1.2",
+    "express": "^5.2.1"
   }
 }
